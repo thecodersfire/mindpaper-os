@@ -20,3 +20,20 @@ org.gnome.Papers
 org.gnome.TextEditor
 org.gnome.Boxes
 org.gnome.baobab
+
+# Fifteen additional preinstalled purpose-specific applications
+com.orama_interactive.Pixelorama
+org.synfig.SynfigStudio
+io.github.OpenToonz
+com.rawtherapee.RawTherapee
+org.kde.digikam
+org.gnome.Shotwell
+org.musescore.MuseScore
+io.lmms.LMMS
+org.hydrogenmusic.Hydrogen
+org.guitarix.Guitarix
+org.jabref.jabref
+org.mozilla.Thunderbird
+org.gimp.GIMP
+org.kde.krita
+org.inkscape.Inkscape
