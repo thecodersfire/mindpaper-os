@@ -1,0 +1,13 @@
+#!/usr/bin/env bash
+set -euo pipefail
+mkdir -p "$HOME/Documents/mindpaper-os-session-plans"
+file="$HOME/Documents/mindpaper-os-session-plans/plan-$(date +%Y%m%d-%H%M%S).md"
+{
+ printf '# mindpaper-os session plan\n\n'
+ printf 'Created: %s\n\n' "$(date -Is)"
+ printf 'Purpose: personal notes\n\n## Prompts\n'
+ printf '%s\n' '- What routine or activity do you want to focus on?' '- What is a realistic small step?' '- What would make the session comfortable and private?'
+ printf '\n## Notes\n'
+} > "$file"
+nano "$file"
+printf 'Saved locally: %s\n' "$file"
